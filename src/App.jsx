@@ -5,8 +5,8 @@ import TopBar from './scenes/global/TopBar'
 import SideBar from './scenes/global/SideBar'
 import Dashboard from './scenes/dashboard/Dashboard'
 import Team from './scenes/team/Team'
-// import Invoices from './scenes/global/Invoices'
-// import Contacts from './scenes/global/Contacts'
+import Invoices from './scenes/invoices/Invoices'
+import Contacts from './scenes/contacts/Contacts'
 // import Bar from './scenes/global/Bar'
 // import Form from './scenes/global/Form'
 // import Line from './scenes/global/Line'
@@ -30,9 +30,9 @@ const App = () => {
             <Routes>
               <Route path='/' element={<Dashboard />} />
               <Route path='/team' element={<Team />} />
-              {/* <Route path='/contacts' element={<Contacts />} />
+              <Route path='/contacts' element={<Contacts />} />
               <Route path='/invoices' element={<Invoices />} />
-              <Route path='/form' element={<Form />} />
+              {/* <Route path='/form' element={<Form />} />
               <Route path='/bar' element={<Bar />} />
               <Route path='/pie' element={<Pie />} />
               <Route path='/line' element={<Line />} />
