@@ -13,7 +13,7 @@ import Form from './scenes/form/Form'
 // import Pie from './scenes/global/Pie'
 // import FAQ from './scenes/global/FAQ'
 // import Geography from './scenes/global/Geography'
-// import Calendar from './scenes/global/Calendar'
+import Calendar from './scenes/calendar/Calendar'
 
 
 const App = () => {
@@ -37,8 +37,8 @@ const App = () => {
               <Route path='/pie' element={<Pie />} />
               <Route path='/line' element={<Line />} />
               <Route path='/faq' element={<FAQ />} />
-              <Route path='/geography' element={<Geography />} />
-              <Route path='/calendar' element={<Calendar />} /> */}
+              <Route path='/geography' element={<Geography />} /> */}
+              <Route path='/calendar' element={<Calendar />} />
             </Routes>
           </main>
         </div>

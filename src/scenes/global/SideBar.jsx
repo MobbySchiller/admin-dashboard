@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar'
-import userImg from '../../assets/storm.jpg'
 import 'react-pro-sidebar/dist/css/styles.css'
 import { Box, IconButton, Typography, useTheme } from '@mui/material'
 import { Link } from 'react-router-dom'
@@ -96,7 +95,7 @@ const SideBar = () => {
                                     alt='profile-user'
                                     width='100px'
                                     height='100px'
-                                    src={userImg}
+                                    src='./assets/storm.jpg'
                                     style={{ cursor: 'pointer', borderRadius: '50%' }}
                                 />
                             </Box>
