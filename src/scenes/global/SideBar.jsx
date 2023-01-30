@@ -40,8 +40,6 @@ const SideBar = () => {
     const [isCollapsed, setIsCollapsed] = useState(false)
     const [selected, setSelected] = useState('Dashboard')
 
-
-
     return (
         <Box
             sx={{
