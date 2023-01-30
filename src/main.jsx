@@ -6,7 +6,7 @@ import './sass/styles.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/admin-dashboard'>
       <App />
     </BrowserRouter>
   </React.StrictMode>
